@@ -23,15 +23,29 @@ sudo vim /etc/nsswitch
 
 #Save and exit
 
+#Ping
+ping www.ford.com
 
+getent hosts
 
+getent hosts www.ford.com
+
+#Use resolvectl
 resolvectl
 
-resolvectl query www.pluralsight.com
+#Query with resolvectl
+resolvectl query www.ford.com
 
+#The DNS server
 resolvectl dns enp0s3
 
+#Add a dns server
 sudo resolvectl dns enp0s8 1.0.0.1
+
+#Use dig
+dig www.ford.com
+
+dig www.ford.com @8.8.8.8
 
 
 
