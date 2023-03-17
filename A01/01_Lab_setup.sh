@@ -32,9 +32,9 @@ vim Vagrantfile
 #Change to the home directory
 cd
 
-mkdir linauto
+mkdir tools
 
-cd linauto
+cd tools
 
 #Copy the Vagrantfile into your project directory
 cp Linux_Administration_Troubleshooting/A01/Vagrantfile .
