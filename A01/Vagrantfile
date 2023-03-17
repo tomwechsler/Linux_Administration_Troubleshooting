@@ -22,7 +22,7 @@ Vagrant.configure("2") do |config|
 #settings for the ubuntu VM
   config.vm.define "ubuntu" do |ubuntu|
     ubuntu.vm.provider "virtualbox" do |vb_ubuntu|
-	    vb_ubuntu.memory = "4096"
+	    vb_ubuntu.memory = "2048"
 	    vb_ubuntu.cpus = "2"
 	end
 		
