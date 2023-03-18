@@ -6,16 +6,19 @@ ping 127.1
 
 ping 1.1
 
+#Check for the correct subnet config
 ip -4 addr show
 
 ip -4 route
 
-echo net.ipv4.icmp_echo_ignore_all=1 | sudo tee /etc/sysctl.dping.conf
+#Disable ping
+echo net.ipv4.icmp_echo_ignore_all=1 | sudo tee /etc/sysctl.d/ping.conf
 
 sudo sysctl --system
 
 ping localhost
 
+#Use nmap
 sudo apt install -y nmap
 
 nmap -p 22 localhost 
