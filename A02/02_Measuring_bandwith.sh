@@ -18,5 +18,7 @@ wget http://mirror.init7.net/almalinux/9.1/isos/x86_64/AlmaLinux-9-latest-x86_64
 #Now we use nload
 nload enp0s3
 
+
+
 The CLI command nload is used to monitor the current bandwidth. The view the speed and
 configuration of a NIC we can use ethtool.
