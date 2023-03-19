@@ -1,4 +1,4 @@
-#Working on ubuntu
+#Working on alma
 
 #Order of name resolution
 grep hosts /etc/nsswitch.conf
@@ -17,7 +17,7 @@ sudo vim /etc/hosts
 ping www.ford.com
 
 #Change the order
-sudo vim /etc/nsswitch
+sudo vim /etc/nsswitch.conf
 
 #from files dns => dns files
 
@@ -29,6 +29,8 @@ ping www.ford.com
 getent hosts
 
 getent hosts www.ford.com
+
+#Working on ubuntu
 
 #Use resolvectl
 resolvectl
