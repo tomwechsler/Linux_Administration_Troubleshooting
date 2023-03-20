@@ -15,7 +15,7 @@ sudo nmap 192.168.56.101
 ping 192.168.56.101
 
 #Working on alma
-sudo firewall-cmd --addd-icmp-block=echo-request
+sudo firewall-cmd --add-icmp-block=echo-request
 
 sudo firewall-cmd --list-all
 
