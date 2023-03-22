@@ -2,7 +2,7 @@
 
 vim zombie.c
 
-apt install -y build-essential
+sudo apt install -y build-essential
 
 gcc zombie.c -o zombie
 
@@ -10,7 +10,7 @@ gcc zombie.c -o zombie
 
 ps -elf | grep -w Z
 
-top -b -n 1 -u $USER
+top -b -n 1 -u $USER #-b batch mode; -n for number
 
 
 
