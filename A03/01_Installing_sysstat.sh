@@ -1,7 +1,7 @@
 #Working on ubuntu
 
 #Installing sysstat
-sudp apt install -y sysstat
+sudo apt install -y sysstat
 
 #Start the service
 sudo systemctl enable --now sysstat
