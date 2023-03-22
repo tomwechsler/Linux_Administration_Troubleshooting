@@ -6,7 +6,7 @@ sar -b
 sar -b -f /var/log/sysstat/sa21
 
 #Today
-sar -d
+sar -d #-d for device (/dev/sda)
 
 #Check the major:minor number
 lsblk
