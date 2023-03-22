@@ -2,11 +2,14 @@
 
 sudo apt install -y ioping
 
+ioping .
+
 ioping . -c20
 
+#-R for the summary report at the end
 ioping . -R -c20
 
-sudo ioping -R /dev/sdb
+sudo ioping -R -c20 /dev/sdb
 
 
 

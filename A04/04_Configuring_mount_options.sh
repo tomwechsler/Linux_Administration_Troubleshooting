@@ -1,6 +1,12 @@
 #Working on ubuntu
 
+#Check the mount options
+mount -t ext4
+
 sudo mount -o remount,barrier=0,commit=60 / 
+
+#Check the mount options
+mount -t ext4
 
 sudo mount -o remount,barrier=1,commit=5 / #defaults 
 

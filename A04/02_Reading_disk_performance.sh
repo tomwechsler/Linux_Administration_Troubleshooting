@@ -2,10 +2,16 @@
 
 sar -b
 
+#Day 21
+sar -b -f /var/log/sysstat/sa21
+
+#Today
 sar -d
 
-sar -f -b /var/log/sysstat/sann
+#Check the major:minor number
+lsblk
 
+sar -d
 
 
 The sar command can show us disk activity, with sar -b showing transaction per second and sar

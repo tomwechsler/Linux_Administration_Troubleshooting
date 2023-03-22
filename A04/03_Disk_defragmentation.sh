@@ -1,7 +1,18 @@
 #Working on ubuntu
 
+#List the mount options
+mount -t ext4
+
+#Huge infos
+sudo dumpe2fs /dev/sda1
+
+#Search for extent
 sudo dumpe2fs /dev/sda1 | grep extent
 
+#Enough disk space for defragmentation
+df -h /
+
+#-c for check
 sudo e4defrag -c /
 
 sudo e4defrag /
