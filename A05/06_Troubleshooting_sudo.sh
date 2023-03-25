@@ -2,7 +2,7 @@
 
 sudo -l
 
-export EXPORT=vim
+export EDITOR=vim
 
 sudo visudo
 

@@ -1,10 +1,10 @@
 #Working on ubuntu
 
 #System startup time
-systemctl-analyze
+systemd-analyze
 
 #If this specific service is disabled, it does not mean that the system will now boot 2 seconds faster.
-systemctl analyze-blame
+systemd-analyze blame
 
 
 
