@@ -19,7 +19,7 @@ sudo visudo
 sudo -l
 
 A user can always check what they are allowed to do with sudo -l. Often though the problem
-relates to environment variables not being carried through. My aaproach is to add the variables
+relates to environment variables not being carried through. My aproach is to add the variables
 I need for each command, but we could also allow variables in the sudoers file.
 
 

@@ -45,18 +45,18 @@ sudo repquota -s /
 #Logon as ubuntu
 sudo su - ubuntu
 
-sudo fallocate -l 100M file1
+fallocate -l 100M file1
 
 #-s for human readable
 sudo quota -vs ubuntu
 
-sudo fallocate -l 60M file2
+fallocate -l 60M file2
 
 #-s for human readable
 sudo quota -vs ubuntu
 
 #Does not work
-sudo fallocate -l 60M file3
+fallocate -l 60M file3
 
 
 
