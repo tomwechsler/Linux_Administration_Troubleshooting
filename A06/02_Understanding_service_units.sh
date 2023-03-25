@@ -24,4 +24,4 @@ sudo systemctl status sshd
 
 The systemd service units are well documented, we can also view the content of existing units.
 The sshd.service unit starts SSH with SSHD_OPTS. Those options can be configured in the file
-/etc/default/ssh. Here we put service into debig mode.
+/etc/default/ssh. Here we put service into debug mode.
